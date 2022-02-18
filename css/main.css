@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-transform: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 25px 75px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.nav__item {
+    text-align: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #222222;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__linkk {
+    border: #222222 solid 0.5px;
+    border-radius: 50%;
+    padding: 11px 15px;
+    color: #222222;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__list-big {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav__list-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.nav__list-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.nav__linkf {
+    text-decoration: none;
+    color: #222222;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+}
+
+.nav__list-five {
+    border: none;
+    color: #222222;
+    padding: 0 15px;
+    appearance: none;
+    outline: none;
+}
+
+.select-box {
+    position: relative;
+}
+
+.nav__list-six {
+    display: flex;
+    column-gap: 46px;
+}
+
+.nav__list-six i {
+    border: 0.5px #222222 solid;
+    border-radius: 50%;
+    padding: 13px;
+    background-color: #263640;
+    color: #fff;
+}
+
+.select__icon::after {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 10px;
+}
+
+.select__icon {
+    color: red;
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
